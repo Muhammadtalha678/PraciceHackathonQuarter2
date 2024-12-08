@@ -8,7 +8,6 @@ import SearchInput from '../SearchInput/SearchInput'
 import CardButton from '../CardButton/CardButton'
 import { GrFavorite } from "react-icons/gr";
 import { GrCart } from "react-icons/gr";
-import { FiSearch } from "react-icons/fi";
 import Menu from '../Menu/Menu'
 
 const Header = () => {
