@@ -25,17 +25,17 @@ const ProductCard = () => {
             <ThemeText fontWeight='font-normal' className='text-[12px] leading-3 text-white'>-40%</ThemeText>
           </ThemeButton>
             <div className='flex flex-col gap-3'>
-            <CardButton borderRadius='rounded-full'>
+            <CardButton borderRadius='rounded-full' backgroundColor='bg-[#fff]'>
               <HiOutlineHeart size={20} />
               
             </CardButton>
-            <CardButton borderRadius='rounded-full'>
+            <CardButton borderRadius='rounded-full' backgroundColor='bg-[#fff]'>
               <IoEyeOutline size={20}/>
               
             </CardButton>
               
             </div>  
-        </div>
+          </div>
           <Image src={flashsale1} alt='Flash Sale - 1' width={190} height={180}/>
         </div>
         <div className='pt-3 flex flex-col gap-2'>

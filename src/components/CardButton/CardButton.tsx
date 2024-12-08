@@ -9,7 +9,8 @@ interface CardButtonProps {
 }
 const CardButton = (props:CardButtonProps) => {
   return (
-    <button className={`flex flex-col justify-center items-center  ${props.width || 'w-[34px]'} ${props.height || 'h-[34px]'} bg-[#fff] ${props.borderRadius}`}>
+    <button className={`flex justify-center items-center ${props.width || 'w-[34px]'} ${props.height || 'h-[34px]'} 
+    ${props.backgroundColor} ${props.borderRadius}`}>
       {props.children} 
     </button>
   )
